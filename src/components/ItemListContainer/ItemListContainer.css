@@ -8,3 +8,33 @@
     background: #e4e6ed;
     padding: 10px 0;
 }
+
+
+
+.titulo{
+    display: inline-block;
+    position: relative;
+    color: #000;
+    text-shadow: 2px 2px #d8bbff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2rem;
+    font-size: 40px;
+    margin-bottom: 2rem;
+   }
+  
+   .titulo::after, .titulo::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+  }
+  
+  .titulo::before{
+    left: -140px;
+  }
+  
+  .titulo::after{
+    right: -140px;
+  }

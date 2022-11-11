@@ -1,10 +1,13 @@
-import Carrito from '../../assets/carrito.png';
+import "./CartWidget.css";
 
-export const CartWidget = ()=>{
-    return(
-        <div>
-            <img src={Carrito} alt="mario" style={{width:20}}/>
-            <span style={{backgroundColor: 'white', borderRadius:"50%", width:"10px", heigth:"10px", fontSize:"10px", color:"black"}}>2</span>
-        </div>
-    )
-}
+export const CartWidget = () => {
+  return (
+    <div class="logoCarro">
+      <button id="boton-carrito">
+        <i class="fas fa-shopping-cart">
+          <span id="contadorCarro">0</span>
+        </i>
+      </button>
+    </div>
+  );
+};

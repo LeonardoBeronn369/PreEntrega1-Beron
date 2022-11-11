@@ -1,29 +1,35 @@
-.nav-container{
-    height: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #101c2b;
-}
-.nav-brand{
-    width: 20px;
-}
-.navegacion{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-}
-.navegacion a{
-    margin: 10px;
+.nav-container {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #101c2b;
 }
 
-.claseActive{
-    color: red
+.navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
 }
-.claseInactive{
-    color: blue;
+.navegacion a {
+  margin: 10px;
+}
+
+.claseActive {
+  color: red;
+}
+.claseInactive {
+  color: blue;
+}
+
+.logo-Rivia{
+  font-size: 28px;
+  font-family: 'Sacramento', cursive;
+  color: #FFF;
+  margin-left: 3rem;
+  font-weight: bold;
 }

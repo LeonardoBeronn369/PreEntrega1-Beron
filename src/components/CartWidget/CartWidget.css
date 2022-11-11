@@ -1,0 +1,13 @@
+#boton-carrito {
+    border: none;
+    color: #000;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px 10px;
+    transition: all .3s;
+}
+
+.logoCarro{
+    margin-right: 1rem;
+  }
